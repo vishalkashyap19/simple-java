@@ -6,7 +6,7 @@ public class TodayDate {
         // Get today's date
         LocalDate today = LocalDate.now();
 
-        // Format the date in a readable format (e.g., "dd-MM-yyyy")
+        // Format the date in a readable format (e.g., "MM-dd-yyyy")
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         String formattedDate = today.format(formatter);
 
