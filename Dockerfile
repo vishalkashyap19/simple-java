@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
 
 #copy source code from HOST machine to my container
-COPY  src/TodayDate.java /app/TodayDate.java
+COPY /src/TodayDate.java /app/
 
 #compile the application code
 RUN javac TodayDate.java
