@@ -11,7 +11,7 @@ public class TodayDate {
         String formattedDate = today.format(formatter);
 
         // Print today's date
-        System.out.println("Today's date is: zvnkznk.v,znkm,.vkmn,." + formattedDate);
+        System.out.println("Today's date is: " + formattedDate);
     }
 
 }
